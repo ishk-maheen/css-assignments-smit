@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-size: cover;
+  background-image: url(header-background.jpg);
+  margin: 0px 100px;
+}
+
+.head {
+  background-color: rgba(255, 255, 255, 0.916);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+  border-bottom: 1px solid #f7f7f7;
+}
+
+.info {
+  text-align: center;
+}
+
+.info>h1 {
+  color: #313234;
+  padding: 10px 0px;
+  font-size: 24px;
+}
+
+.info>p {
+  color: #737373;
+  padding-top: 10px;
+}
+
+.info button {
+  margin-top: 20px;
+  font-size: 14px;
+  padding: 10px 20px;
+  border: 1px solid #F7F7F7;
+  background-color: #ffffff;
+}
+
+.registration {
+  border-bottom: none;
+  color: #99C747;
+}
+
+.IDcard,
+.result {
+  color: #0D6DB7;
+}
+
+.button button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.button button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #0D6DB7;
+  border-radius: 25px;
+  padding: 5px 10px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.button>a {
+  text-decoration: none;
+}
+
+.button span {
+  color: #0D6DB7;
+}
+
+section {
+  margin: 50px 200px;
+}
+
+form span {
+  color: #0D6DB7;
+  margin: 10px;
+}
+
+input[type="text"],
+[type="email"],
+[type="number"],
+[type="date"],select {
+  width: 515px;
+  border-radius: 5px;
+  border: 1px solid #99C747;
+  padding: 15px;
+  margin: 10px;
+}
+
+input[type="text"]:hover,
+[type="email"]:hover,
+[type="number"]:hover,
+[type="date"]:hover,select:hover{
+  border: 1px solid #0D6DB7;
+  box-shadow: 0 0 5px #0D6DB7;
+}
+
+input[type="text"].text{
+  width: 1080px;
+}
+select.text{
+  width: 1110px;
+}
+input[type="file"]{
+  margin: 10px;
+  width: 200px;
+}
+
+.flex{
+  display: flex;
+  height: 110px;
+  width: 550px;
+}
+
+ul li{
+  list-style-type: none;
+  font-size: 13px;
+}
+select{
+  width: 545px;
+}
+.form{
+  border-bottom: 2px solid #F7F7F7;
+}
+.note{
+    margin: -20px 200px 100px 200px;
+}
+
+ol>li{
+  font-size: 14px;
+}
+button.submit{
+  margin-top: 30px;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: 1px solid #0D6DB7;
+  background-color: #0D6DB7;
+  width: 100%;
+  border-radius: 5px;
+  color: #ffffff;
+}
