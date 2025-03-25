@@ -1,0 +1,27 @@
+body{
+    background-color: #6390B8;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    height: 700px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #D4EBFB;
+    border: 2px solid;
+    padding: 40px;
+    border-radius: 10px;
+    width: 350px;
+}
+button{
+    padding: 10px 20px;
+    background-color: #6390B8;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}

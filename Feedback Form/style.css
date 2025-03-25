@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container{
+    background-color: rgb(241, 241, 241);
+    width: 350px;
+    padding: 10px;
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+}
+input[type="text"],[type="email"],select,textarea{
+    margin: 5px 15px;
+    padding: 10px;
+    width: 85%;
+    border: 1px solid #18BD5B;
+}
+select{
+    width: 92%;
+}
+button{
+    background-color: #18BD5B;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: none;
+}
+
