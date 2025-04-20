@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FFDD86;
+}
+
+.container{
+    background-color: #F8F4E8;
+    height: 540px;
+    margin: 60px 150px;
+    border-radius: 35px;
+    padding: 30px 100px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo>h1{
+    font-size: 20px;
+}
+
+.contact-me{
+    background: linear-gradient(to right, #E1A55D, #DF6575);
+    color: white;
+    border: none;
+    padding: 3px 15px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.links>ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    color: #75726a;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sign-in{
+    font-size: 16px;
+    color: #75726a;
+    border: none;
+    background-color: #F8F4E8;
+    padding: 15px;
+}
+
+.join-waitlist{
+    background-color: #4C78E9;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0px;
+}
+
+.content{
+    width: 490px;
+}
+.content>h1{
+    font-size: 55px;
+    line-height: 1;
+}
+.content>p{
+    font-size: 18px;
+    padding: 15px 0px;
+}
+
+input[type="email"]{
+    font-size: 16px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 280px;
+}
+
+.spam{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.spam>p{
+    font-size: 18px;
+    padding: 15px 0px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 190px;
+}
+
+.info>img{
+    border-radius: 25px;
+}
+
+span{
+    font-weight: bold;
+}
